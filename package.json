@@ -1,0 +1,15 @@
+{
+  "name": "thynkmxsplash",
+  "version": "1.0.0",
+  "description": "splash site",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf build && mkdir build && cp index.html build/index.html -f",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
